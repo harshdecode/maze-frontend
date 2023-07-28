@@ -1,0 +1,273 @@
+.feed-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding: 16px;
+
+}
+/* Feed.css */
+/* DeleteCommentFunction.css */
+.comment-container {
+position: relative; /* To position the "Delete" button relative to the container */
+border: 1px solid #ccc;
+padding: 10px;
+margin: 10px;
+}
+
+.delete-button {
+position: absolute;
+top: 5px;
+right: 5px;
+background-color: #c44b42;
+color: #fff;
+border: none;
+padding: 5px 10px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.delete-button:hover {
+background-color: #ad5e5e;
+}
+
+.delete-button:focus {
+outline: none;
+}
+
+
+
+
+.menu-bar {
+width: 20%; /* Adjust the width as needed */
+/* Add any additional styling for the menu bar */
+}
+
+
+
+.page-container {
+  /* Set the background image */
+  /* background-image: url('/home/dell/Downloads/bokeh-background-with-metallic-border.jpg'); Replace '../path/to/background.jpg' with the actual relative path to the background image */
+  display: flex;
+  flex: 1;
+  
+  /* Adjust background properties */
+  background-color: ghostwhite;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+
+.new-post-container {
+  width: 600px;
+  margin-bottom: 16px;
+}
+
+.new-post-container form {
+  display: flex;
+  align-items: center;
+}
+
+.new-post-container textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  margin-right: 8px;
+}
+
+.new-post-container button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.new-post-container button:hover {
+  background-color: #0e87d1;
+}
+
+.new-post-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+
+}
+
+.new-post-icons span {
+  margin-right: 8px;
+  cursor: pointer;
+  color: #1da1f2;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.new-post-icons span:hover {
+  color: #0e87d1;
+}
+
+.post {
+  border: 2px solid #000; /* Set the border width and color as desired */
+  border-radius: 10px; /* Set the border radius to round the corners as desired */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 16px;
+
+  width: 50%; 
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.post-header .post-username {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1da1f2;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.post-body {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.post-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-likes,
+.post-comments {
+  display: flex;
+  align-items: center;
+  color: #888;
+  font-size: 14px;
+}
+
+.post-likes i,
+.post-comments i {
+  margin-right: 4px;
+}
+
+.post-likes:hover,
+.post-comments:hover {
+  color: #1da1f2;
+}
+
+.post-likes span,
+.post-comments span {
+  margin-left: 4px;
+  margin-right: 5px;
+}
+
+.like-count {
+  margin: 500px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+  .comment-section {
+    margin-top: 10px;
+  }
+
+  
+  .comment-form {
+    display: flex;
+    align-items: left;
+    margin-top: 10px;
+  }
+
+  .comment-form input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+
+  .comment-form button {
+    padding: 3px 3px;
+    background-color: #498ed8;
+    color: #fff;
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+  }
+
+  /* Style the comments */
+  .comments {
+   margin-top: 10px;
+    /* Set the background color as desired */
+    /* Set the background color as desired */
+   border: 2px ; /* Set the border width and color as desired */
+    /* Set the border radius to round the corners as desired */
+   padding: 10px; /* Set the padding to create spacing inside the container */
+ 
+   /* Add box shadow for a stylish effect */
+   /* box-shadow: 0 2px 4px(0, 0, 0, 0.2)    */
+  }
+
+  .comment {
+    margin-bottom: 5px;
+    margin-bottom: 10px; /* Set the margin bottom to create spacing between comments */
+    padding: 5px; /* Set the padding to create spacing inside each comment */
+     /* Set the background color of each comment */
+    border: 1px solid; /* Set the border width and color of each comment */
+    border-radius: 1px; /* Set the border radius to round the corners of each comment */
+  }
+
+  .comment .comment-text {
+    font-weight: bold;
+  }
+
+  .comment .comment-author {
+    font-size: 12px;
+    color: #888;
+  }
+  .post-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+  }
+  
+  .post-buttons button {
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: space-around;
+    margin-right: 70px;
+    margin-left: 15px;
+  }
+  
+  .post-buttons button.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .post-buttons button.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .post-buttons button:hover {
+    opacity: 0.8;
+  }
+  
+

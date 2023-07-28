@@ -1,0 +1,29 @@
+/* UploadFilePage.css */
+
+/* Center the container */
+.body-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    max-height: 600px;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .file-drop-zone {
+    cursor: pointer;
+    max-width: 500px;
+  }
+  
+  .file-drop-zone.dragging {
+    border-color: #007bff; /* Change border color when dragging over */
+    background-color: #f0f8ff; /* Add a light background color when dragging over */
+  }
+  

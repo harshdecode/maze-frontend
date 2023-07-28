@@ -1,0 +1,93 @@
+/* ManageUsersPage.css */
+
+.page-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: relative;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-buttons button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-right: 10px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr {
+  transition: background-color 0.2s ease;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.status-button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.deactivate {
+  background-color: #dc3545;
+}
+
+.activate {
+  background-color: #28a745;
+}
+
+.create-button {
+  background-color: #007bff;
+}
+
+.upload-button {
+  background-color: #17a2b8;
+}
+
+/* Add some box shadow to the table for elevation effect */
+.table-container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
